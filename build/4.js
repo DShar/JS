@@ -19,7 +19,7 @@ function range(start, end, step) {
       arr.push(i);
     }
   } else {
-    for (var _i = start; _i < end + 1; step == undefined ? _i++ : _i += step) {
+    for (var _i = start; _i <= end; step == undefined ? _i++ : _i += step) {
       arr.push(_i);
     }
   }
@@ -60,4 +60,5 @@ console.log(range(3, 7));
 console.log(sum(range(1, 10)));
 console.log(range(1, 10, 2));
 console.log(range(5, 2, -1));
+console.log(range("7", "2"));
 console.log(range("dwdw", ""));
