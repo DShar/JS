@@ -16,11 +16,11 @@ function range(start, end, step) {
 
   if (step < 0) {
     for (var i = start; i > end - 1; i += step) {
-      arr.push(i);
+      arr.push(i * 1);
     }
   } else {
     for (var _i = start; _i <= end; step == undefined ? _i++ : _i += step) {
-      arr.push(_i);
+      arr.push(_i * 1);
     }
   }
 
